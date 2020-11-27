@@ -1,0 +1,6 @@
+n=str(input("Dati numele : "))
+v=str(input("Dati varsta : "))
+t=str(input("Dati tara : "))
+cl=str(input("Dati clasa : "))
+print(n,v,t,cl,sep=' ')
+print(f'Numele meu este {n} si am {v} ani, m-am nascut in {t} si sunt in clasa {cl}',sep=' ',end=".")
